@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Activity 7: Exploring bootstrap</title>
+					<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+					<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+                    <link rel="stylesheet" href="style.css">
+                </head>
+					<body>
+						<div class="container">
+							<div class="row">
+								<h3 class="bg-dark text-white p-4 m-10 text-center">Welcome to the Future Club</h3>
+							</div>
+							<!-- NAVBAR with link -->
+							<nav class="navbar navbar-light bg-light justify-content-between">
+								<p class="h1 text-dark" class= "navbar-brand">Web Development</p>
+								<form class="form-inline">
+									<a class="navbar-brand text-dark text-center m-1" href="https://www.starbucks.ph/">HOME</a>
+									<a class="navbar-brand text-dark text-center m-1" href="https://starbucks.ph/about-us">ABOUT</a>
+									<a class="navbar-brand text-dark text-center m-1" href="https://starbucks.ph/customer-service">CONTACT</a>
+									<a class="navbar-brand text-dark text-center m-1" href="https://www.youtube.com/watch?v=DwQk_pOwxIc">SERVICES</a>
+								</form>
+							</nav>
+							<!-- Carousel -->
+                            
+							<div id="carouselExampleCaptions" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="What-Is-Web-Development.png" class="d-block w-100" alt="What is Web Dev">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Evolution.webp" class="d-block w-100" alt="Framework">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Different-Types-of-Web-Development.jpg" class="d-block w-100" alt="Different Different-Types-of-Web-Development">
+                                    <div class="carousel-caption d-none d-md-block">
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+
+									<div class="container">
+										<img src="https://cdn0.iconfinder.com/data/icons/fillicons-information-technology/1550/programmer_software_developer-1024.png" alt="Logo of starbucks" class="mx-auto d-block" style="width:20%"">
+											<h2 class="text-center" >“Measuring programming progress by lines of code is like measuring aircraft building progress by weight.”
+                                                                     – Bill Gates</h2>
+											<p class="text-center">It's appropriate on so many levels. Lines of code can be part of a measure of what has been accomplished, 
+                                                                    just like a heavy airplane is a great accomplishment so long as it flies. Yet we would never consider adding weight to be our goal.</p>
+										</div>
+									</div>
+								</div>
+								<div class="m-2 gap-2 text-center">
+									<button type="button" class="btn btn-dark">Learn More</button>
+									<button type="button" class="btn btn-dark">Sign Now</button>
+								</div>
+								<hr>
+									<!-- CARD  -->
+									<main>
+										<div class="container mt-5 ">
+											<p class="h2 bg-dark text-center text-white">Different-Types-of-Web-Development</p>
+											<div class="row">
+												<div class="card" style="width: 20rem; text-align: center;">
+													<div class="card-body" >
+														<h5 class="card-title">Front-end web development</h5>
+														<h6 class="card-subtitle mb-2 text-muted">Front end developers deal with how the user interfaces look and how users or clients interact with the website. 
+                                                            This includes flow, look and feel, colours, graphics, layout and navigation.</h6>
+														<a href="#" class="card-link">APPLY NOW</a>
+														<a href="#" class="card-link">ENROLL NOW</a>
+														<img src="https://img.freepik.com/premium-vector/front-end-developer-icon-vector-woman-work-laptop_88813-2677.jpg" class="float-start" style="width: 100%;">
+														</div>
+													</div>
+													<div class="card" style="width: 20rem; text-align: center;">
+														<div class="card-body">
+															<h5 class="card-title">Back-end web development </h5>
+															<h6 class="card-subtitle mb-2 text-muted">The back-end developer is responsible for writing and updating the code that powers a website.
+                                                                    Finally, the thread connects the internet server to the front end and ensures that all the information is accounted for.</h6>
+															<a href="#" class="card-link">APPLY NOW</a>
+															<a href="#" class="card-link">ENROLL NOW</a>
+															<img src="https://cdni.iconscout.com/illustration/premium/thumb/ui-ux-designer-4375011-3640101.png" class="float-start" style="width: 100%;">
+															</div>
+														</div>
+														<div class="card" style="width: 20rem;text-align: center;">
+															<div class="card-body">
+																<h5 class="card-title">Full-stack web development</h5>
+																<h6 class="card-subtitle mb-2 text-muted"> 
+                                                                     Full-stack development, as the name suggests, covers website development end-to-end. It is a convergence of many skills. As a result, 
+                                                                        it is a highly sought-after position and requires years of experience in the field to attain this level of expertise.</h6>
+																<a href="#" class="card-link">APPLY NOW</a>
+																<a href="#" class="card-link">ENROLL NOW</a>
+																<img src="https://cdni.iconscout.com/illustration/premium/thumb/full-stack-developer-working-on-project-5248497-4403356.png" class="float-start" style="width: 100%;">
+																</div>
+															</div>
+															<div class="card" style="width: 20rem;text-align: center;">
+																<div class="card-body">
+																	<a href="#" class="card-link">APPLY NOW</a>
+																	<a href="#" class="card-link">ENROLL NOW</a>
+																	<h5 class="card-title">Visit BASE-404</h5>
+																	<h6 class="card-subtitle mb-2 text-muted">An Online Web Development, you can build here your practical skills, and build modern websites and application.</h6>
+																	<br>
+																		<img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=429,fit=crop/mv0kzkG4KGH5Or7g/group-32-Yg21n7Xw1WfWV1RV.png" class="float-start" style="width: 100%;">
+																		</div>
+																	</div>
+																	<!-- List og Group -->
+																	<ul class="list-group">
+																		<li class="list-group-item text-center">Merch Base-404</li>
+																		<li class="list-group-item">404 Tee ₱649.00</li>
+																		<li class="list-group-item">BASE Hoodie ₱999.00</li>
+																		<li class="list-group-item"> Tote Bag NEW</li>
+																	</ul>
+																</div><br>
+																	<footer>
+																		<p class="text-black p-1 m-40 text-center">© 2023 Inspired by Starbucks Coffee Company. All rights reserved.</p>
+																	</footer>
+												
+		            </body>
+		            </html>
